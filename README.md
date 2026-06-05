@@ -3,7 +3,6 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Data: BRFSS 2024](https://img.shields.io/badge/data-BRFSS%202024-green.svg)](https://www.cdc.gov/brfss/annual_data/annual_2024.html)
 [![Methods: AIPW · IPTW · MICE](https://img.shields.io/badge/methods-AIPW%20·%20IPTW%20·%20MICE-orange.svg)](#methods)
-[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
 
 A six-stage causal epidemiology pipeline that estimates the effect of social isolation on **depression**, **chronic disease multimorbidity**, and **poor self-rated health** in a nationally representative sample of ~200,000 US adults. The study uses the full CDC BRFSS 2024 survey, propensity score weighting, doubly robust AIPW estimation, multiple imputation, and formal sensitivity analysis — implemented end-to-end in a single reproducible Jupyter notebook.
 
@@ -281,9 +280,3 @@ Run stages sequentially. Each stage reads from the previous stage's `.parquet` o
 - Rosenbaum PR. *Observational Studies.* 2nd ed. Springer; 2002.
 - Zhang J, Yu KF. What's the relative risk? A method of correcting the odds ratio in cohort studies of common outcomes. *JAMA.* 1998;280(19):1690–1691.
 - CDC. Behavioral Risk Factor Surveillance System 2024 Survey Data and Documentation. Atlanta, GA: Centers for Disease Control and Prevention; 2025.
-
----
-
-## License
-
-This project is licensed under the MIT License. The underlying BRFSS data is a public-domain product of the U.S. Centers for Disease Control and Prevention.
