@@ -244,7 +244,7 @@ Run stages sequentially. Each stage reads from the previous stage's `.parquet` o
 
 ```
 .
-├── BRFSS_Atp-4.ipynb              # Main notebook (all 6 stages)
+├── Social_Isolation_and_Health_Outcomes_—_Population_Scale_Analysis_Using_BRFSS_2024.ipynb              # Main notebook (all 6 stages)
 ├── README.md
 │
 ├── outputs/                       # Generated on first run (not tracked by git)
