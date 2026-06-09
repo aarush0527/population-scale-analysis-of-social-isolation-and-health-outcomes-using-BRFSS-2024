@@ -1,0 +1,7 @@
+Outcome,Method,Prev_isolated_%,Prev_control_%,RD_pp,OR,OR_95CI_lo,OR_95CI_hi,p_value,FMI
+Depression,IPTW,35.1,16.0,19.17,3.1,3.025,3.177,0.0,0.012
+Depression,AIPW (DR),34.2,16.2,18.22,2.689,2.68,2.698,0.0,0.035
+Multimorbidity (≥2 conditions),IPTW,34.4,30.3,4.13,1.291,1.257,1.326,1.7860966134423847e-45,0.155
+Multimorbidity (≥2 conditions),AIPW (DR),34.2,30.3,4.02,1.195,1.187,1.203,2.847789635179019e-31,0.2
+Poor/fair general health,IPTW,26.1,17.0,9.18,1.873,1.82,1.927,9.687678989015009e-128,0.124
+Poor/fair general health,AIPW (DR),25.0,17.1,7.95,1.61,1.603,1.616,2.804885496345098e-74,0.179
