@@ -188,7 +188,6 @@ Demographics, socioeconomic status (income, education, employment, marital statu
 | `brfss_analytic_stage1.parquet` | Recoded analytic dataset |
 | `brfss_analytic_stage2.parquet` | Post-MICE primary imputed dataset |
 | `brfss_analytic_stage3.parquet` | Dataset enriched with propensity scores and IPTW weights |
-| `imputed_datasets_stage3.pkl` | All 5 imputed datasets with PS and IPTW |
 | `table1_weighted.csv` | Survey-weighted Table 1 by isolation status with SMDs |
 | `table2_causal_estimates.csv` | Pooled IPTW and AIPW results (OR, ATE, 95% CI, FMI) |
 | `smd_balance.csv` | Pre- and post-IPTW standardized mean differences |
