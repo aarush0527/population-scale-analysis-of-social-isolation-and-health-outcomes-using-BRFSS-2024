@@ -226,16 +226,16 @@ cd population-scale-analysis-of-social-isolation-and-health-outcomes-using-BRFSS
 jupyter notebook Social_Isolation_and_Health_Outcomes_—_Population_Scale_Analysis_Using_BRFSS_2024.ipynb
 ```
 
-Run stages sequentially. Each stage reads from the previous stage's `.parquet` or `.pkl` output. Expected runtimes on a modern laptop:
+Run stages sequentially. Each stage reads from the previous stage's `.parquet` or `.pkl` output.
 
-| Stage | Approximate runtime |
-|---|---|
-| Stage 1 — Data loading & recoding | 3–5 min (XPT file I/O) |
-| Stage 2 — MICE imputation | 5–8 min |
-| Stage 3 — PS estimation | 2–3 min |
-| Stage 4 — AIPW (GBM, 5-fold × 5 datasets × 3 outcomes) | 30–60 min |
-| Stage 5 — Mediation bootstrap (B=500) | 5–10 min |
-| Stage 6 — Subgroup analysis | 10–20 min |
+| Stage |
+|---|
+| Stage 1 — Data loading & recoding |
+| Stage 2 — MICE imputation |
+| Stage 3 — PS estimation |
+| Stage 4 — AIPW (GBM, 5-fold × 5 datasets × 3 outcomes) |
+| Stage 5 — Mediation bootstrap (B=500) |
+| Stage 6 — Subgroup analysis |
 
 ---
 
