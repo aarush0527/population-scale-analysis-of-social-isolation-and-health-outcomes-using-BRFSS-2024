@@ -247,15 +247,11 @@ Run stages sequentially. Each stage reads from the previous stage's `.parquet` o
 ├── README.md
 │
 ├── outputs/                       # Generated on first run (not tracked by git)
-│   ├── *.parquet                  # Intermediate analytic datasets
-│   ├── *.pkl                      # Imputed dataset collections
-│   ├── table*.csv                 # Result tables
-│   ├── fig_*.png                  # Figures
-│   └── *.csv                      # Diagnostic and sensitivity outputs
-│
-└── data/                          # Not tracked — download via Stage 1 wget commands
-    ├── LLCP2024.XPT
-    └── codebook24_llcp-v2-508.pdf
+    ├── *.parquet                  # Intermediate analytic datasets
+    ├── table*.csv                 # Result tables
+    ├── fig_*.png                  # Figures
+    └── *.csv                      # Diagnostic and sensitivity outputs
+
 ```
 
 ---
