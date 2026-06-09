@@ -223,7 +223,7 @@ A machine with at least **16 GB RAM** is recommended. Loading the raw BRFSS XPT 
 ```bash
 git clone https://github.com/aarush0527/population-scale-analysis-of-social-isolation-and-health-outcomes-using-BRFSS-2024.git
 cd population-scale-analysis-of-social-isolation-and-health-outcomes-using-BRFSS-2024
-jupyter notebook BRFSS_Atp-4.ipynb
+jupyter notebook Social_Isolation_and_Health_Outcomes_—_Population_Scale_Analysis_Using_BRFSS_2024.ipynb
 ```
 
 Run stages sequentially. Each stage reads from the previous stage's `.parquet` or `.pkl` output. Expected runtimes on a modern laptop:
