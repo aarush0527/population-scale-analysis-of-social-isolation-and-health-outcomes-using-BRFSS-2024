@@ -221,8 +221,8 @@ A machine with at least **16 GB RAM** is recommended. Loading the raw BRFSS XPT 
 ### Running the notebook
 
 ```bash
-git clone https://github.com/<your-username>/social-isolation-health-brfss2024.git
-cd social-isolation-health-brfss2024
+git clone https://github.com/aarush0527/population-scale-analysis-of-social-isolation-and-health-outcomes-using-BRFSS-2024.git
+cd population-scale-analysis-of-social-isolation-and-health-outcomes-using-BRFSS-2024
 jupyter notebook BRFSS_Atp-4.ipynb
 ```
 
